@@ -1,8 +1,9 @@
-package med.voll.api.medico;
+package med.voll.api.medico.DTO;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
 import med.voll.api.endereco.EnderecoDTO;
+import med.voll.api.medico.entity.Especialidade;
 
 public record MedicoDTO(
         @NotBlank
